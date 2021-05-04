@@ -1,30 +1,14 @@
 html, body{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  
 }
+
 
 html{
-    font-size: large;
-    background-color: black;
+  font-size: 10px;
+  background-image: url(./assets/background-stars-desktop_00cbf8a9.jpeg);
 }
-
-body{
-    width: 80vw;
-    min-width: 800px;
-    margin: 0 auto;
-    height: 100vh;
-}
-/*enter typography if needed.
-h1, h2 font family and color*/
-
-p, li{
-    color: grey;
-    font-size: 12px;
-    line-height: 1.5;
-}
-
-h1{
-    font-size: 4rem;
-    text-align: center;
-
+.carousel-item img{
+  height 100vh
 }
