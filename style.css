@@ -9,6 +9,61 @@ html{
   font-size: 10px;
   background-image: url(./assets/background-stars-desktop_00cbf8a9.jpeg);
 }
-.carousel-item img{
-  height 100vh
+
+
+.topnav{
+  background-color: black;
+  overflow: hidden;
 }
+
+.topnav a{
+  float: left;
+  color: lightgrey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: grey;
+  color: black;
+}
+
+.topnav a.active{
+  background-color:grey;
+  color: ivory;
+}
+
+.icon-bar {
+  width: 90px; 
+  background-color: #555; 
+}
+
+.icon-bar a {
+  display: block; 
+  text-align: center; 
+  padding: 16px; 
+  transition: all 0.3s ease; 
+  color: white; 
+  font-size: 36px; 
+}
+
+.icon-bar a:hover {
+  background-color: #000; 
+}
+
+.active {
+  background-color: #04AA6D; 
+}
+
+div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+
+
