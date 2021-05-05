@@ -1,25 +1,21 @@
  body{
 height: 200vh;
-max-height: 200;
-background-image: url(https://lumiere-ak.akamaihd.net/v1/images/background-stars-desktop_00cbf8a9.jpeg);
-margin: 0px;
+background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_00cbf8a9.jpeg?region=0%2C0%2C2048%2C1600)
   
 }
 
 
-.navbar ul{
-  color: white;
-  height: 134px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
+ .span ul{
+   height: 1em;
+background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_00cbf8a9.jpeg?region=0%2C0%2C2048%2C1600)
+  margin: none;
+  padding: none;
+
 
 }
 
 input{
-  background-color: darkgray;
+  background-color: darkslategray;
   border: 0;
   color: whitesmoke;
   border-radius: 2px;
@@ -38,13 +34,13 @@ input{
   list-style-type: none;
   color: lightgray;
   font: 14px;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 .all{
   display: flex;
   font-size: 14px;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   height: 50px;
   background-color: black;
   justify-content: center;
@@ -54,24 +50,24 @@ input{
 
 .login{
   font: 14px;
-  font-family: sans-serif ;
+  font-family: Helvetica, sans-serif ;
 }
 .droid{
   display: flex;
   justify-content: center;
-  width: 80%
+  width: 100%
 }
 
 .vader{
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 100%;
 }
 
 .batch{
   display: flex;
   justify-content: center;
-  width:80%
+  width:100%
 }
 a:hover{
   color: white;
